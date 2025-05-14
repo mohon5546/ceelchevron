@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+section.light {
+  background: #ffffff;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+img.responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 0.75rem;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #005599;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #003366;
+  color: white;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    float: none;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
